@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>無題ドキュメント</title>
+    </head>
+    <body>
+        <h1>jQuery.addIC.js</h1>
+		<div id="hoge"><pre>$("#hoge").addIC(".fuga");</pre></div>
+		<div id="foo"><pre>$("#foo").addIC(".foo,.var");</pre></div>
+		<div class="sample"><pre>$(".sample").addIC("#test");</pre></div>
+		<div id="arrtest"><pre>$("#arrtest").addIC([".test01", ".test02"]);</pre></div>
+        <script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery.addIC.js"></script>
+		<script type="text/javascript">
+		//<![CDATA[
+		$("#hoge").addIC(".fuga");
+		$("#foo").addIC(".foo,.var");
+		$(".sample").addIC("#test");
+		$("#arrtest").addIC([".test01", ".test02"]);
+		//]]>
+		</script>
+    </body>
+</html>
